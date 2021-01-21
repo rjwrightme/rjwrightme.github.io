@@ -1,11 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   return (
     <header>
       <nav>
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <Link to="/">
             <img
               src="Images/RJ-logo.svg"
               width="40"
@@ -13,23 +15,17 @@ const Header = () => {
               alt="logo"
               loading="lazy"
             />
-          </a>
+          </Link>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#aboutMe">
-                  About
-                </a>
+                <HashLink to="/#aboutMe">About</HashLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/portfolio">
-                  Portfolio
-                </a>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
-                  Contact
-                </a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>

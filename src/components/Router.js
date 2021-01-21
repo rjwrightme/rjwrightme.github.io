@@ -1,7 +1,8 @@
 import React from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import Hero from "./Hero";
+import Homepage from "./Homepage";
 import Header from "./Header";
+import Footer from "./Footer";
 import NotFound from "./NotFound";
 
 const Router = () => {
@@ -9,11 +10,12 @@ const Router = () => {
     <HashRouter>
       <Header />
       <Switch>
-        <Route exact path="/" component={Hero} />
-        <Route exact path="/portfolio" component={Hero} />
-        <Route exact path="/contact" component={Hero} />
+        <Route exact path="/" component={Homepage} />
+        <Route exact path="/portfolio" component={Homepage} />
+        <Route exact path="/contact" component={Homepage} />
         <Route component={NotFound} />
       </Switch>
+      <Footer />
     </HashRouter>
   );
 };
