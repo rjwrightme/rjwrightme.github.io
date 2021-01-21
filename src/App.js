@@ -1,14 +1,8 @@
 import "./App.css";
-import Hero from "./components/Hero";
-import Header from "./components/Header";
+import Router from "./components/Router";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Hero />
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;
