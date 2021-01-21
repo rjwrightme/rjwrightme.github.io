@@ -1,0 +1,31 @@
+#aboutMe {
+    max-width: 600px;
+}
+
+#aboutMe p {
+    color: #2b3752;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+#aboutMe a.button {
+    border: 1px solid #374b82;
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 28px;
+    text-decoration: none;
+    color: #374b82;
+    margin-top: 40px;
+}
+
+#aboutMe a.button:hover {
+    background-color: #253147;
+    color: #fff;
+}
+
+hr {
+    margin: 45px 0 0;
+}
