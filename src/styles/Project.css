@@ -1,0 +1,38 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectCard {
+    width: 31%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    margin: 1%;
+    max-width: 350px;
+}
+
+.portfolioDesc {
+    text-align: center;
+}
+
+.projectCard img {
+    width: 100%;
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.1);
+}
+
+.cardText {
+    padding: 12px;
+}
+
+@media (max-width: 1100px) {
+    .projectCard {
+        width: 48%;
+    }
+}
+
+@media (max-width: 520px) {
+    .projectCard {
+        width: 90%;
+    }
+}

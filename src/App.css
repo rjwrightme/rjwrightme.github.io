@@ -11,6 +11,10 @@ header {
   position: relative;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   text-align: center;
   font-size: 28px;
@@ -49,6 +53,24 @@ li.nav-item {
 nav a {
   color: #fff;
   text-decoration: none;
+}
+
+a.button {
+  border: 1px solid #374b82;
+  display: block;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #374b82;
+  margin-top: 40px;
+}
+
+a.button:hover {
+  background-color: #253147;
+  color: #fff;
 }
 
 footer {
