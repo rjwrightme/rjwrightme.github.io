@@ -1,10 +1,21 @@
+const path = require(`path`);
+
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://rjwright.me",
     title: "Gatsby Portfolio",
   },
   plugins: [
+    "gatsby-plugin-postcss",
     "gatsby-plugin-image",
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /svgs/,
+        },
+      },
+    },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
@@ -17,20 +28,11 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: `images`,
+        path: path.join(__dirname, `src`, `images`),
       },
-      __key: "images",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "pages",
-        path: "./src/pages/",
-      },
-      __key: "pages",
     },
   ],
 };
