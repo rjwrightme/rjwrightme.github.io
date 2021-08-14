@@ -1,7 +1,6 @@
 .wrapper {
   width: 100%;
   position: relative;
-  height: 70vh;
   min-height: 500px;
   background: #37415f;
   background: linear-gradient(0deg, #1e325f, #2d4569);
@@ -20,12 +19,16 @@
   width: 100%;
 }
 
+section.hero {
+  max-height: 590px;
+}
+
 .codeBG {
   position: absolute;
   overflow: hidden;
   top: 0;
   width: 100%;
-  height: 70vh;
+  height: 100%;
 }
 
 .codeBG div {

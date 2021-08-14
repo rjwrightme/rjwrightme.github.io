@@ -20,18 +20,18 @@ const Hero = () => {
 
   return (
     <>
-      <section className="wrapper text-white text-center">
+      <section className="hero wrapper text-white text-center">
         <div className="relative z-10 p-4 md:p-0">
-          <h1 className="text-4xl md:text-4xl leading-normal md:leading-loose pt-4 md:pt-12">
+          <h1 className="text-4xl md:text-4xl leading-normal md:leading-loose pt-4 md:pt-8">
             Designer &amp; Full-Stack Developer
           </h1>
-          <h2 className="text-xl font-normal mt-4">
+          <h2 className="text-xl font-normal mt-4 opacity-70">
             I craft engaging experiences for the modern web.
           </h2>
           <GatsbyImage
             image={profile}
             alt="profile drawing of RJ"
-            className="w-48 md:w-64 mt-6 md:mt-12"
+            className="w-48 md:w-64 mt-6 md:my-20"
           />
         </div>
         <div className="codeBG">
@@ -48,7 +48,7 @@ const Hero = () => {
         </div>
         <ScrollArrow id="scrollDown" />
       </section>
-      <Curve />
+      <Curve className="curve -mt-1" />
     </>
   );
 };

@@ -21,6 +21,15 @@
   }
 }
 
-header {
+header,
+footer {
   background-color: #2d4569;
+}
+
+.curve {
+  fill: #1e325f;
+}
+
+.footer-curve {
+  fill: #2d4569;
 }
