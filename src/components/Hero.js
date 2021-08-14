@@ -10,7 +10,7 @@ const Hero = () => {
     query {
       profile: file(relativePath: { eq: "rj-illustration.png" }) {
         childImageSharp {
-          gatsbyImageData(placeholder: TRACED_SVG, formats: [AUTO, WEBP, AVIF])
+          gatsbyImageData(placeholder: NONE, formats: [AUTO, WEBP, AVIF])
         }
       }
     }
