@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Hero from "./components/hero/Hero";
 
 export default function Home() {
   return (
-    <div>
-      <p>Hello World!</p>
+    <div className="dark:bg-sage-600">
+      <Hero />
     </div>
   );
 }
