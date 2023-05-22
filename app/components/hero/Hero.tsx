@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row justify-around items-center">
           <div className="flex justify-center items-center">
             <CurlyBrace />
-            <h1 className="dark:text-white text-4xl font-bold text-center leading-6">
+            <h1 className="text-4xl font-bold text-center leading-6">
               <span className="font-mono text-sage-100">Developer</span>
               <br />
               <span className="font-medium text-lg leading-10">by</span>
