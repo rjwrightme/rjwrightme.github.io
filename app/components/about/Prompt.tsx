@@ -7,7 +7,7 @@ const Prompt: React.FC<PromptProps> = ({ heading, className }) => {
   return (
     <div className={`flex items-center mt-6 ${className || ""}`}>
       <svg
-        stroke-width="0"
+        strokeWidth="0"
         viewBox="0 0 320 512"
         className="dark:fill-yellow-200 mr-2"
         height="1em"

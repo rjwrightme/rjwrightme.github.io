@@ -30,7 +30,7 @@ module.exports = {
         },
       },
       animation: {
-        cursor: "cursor 1.5s ease-in-out infinite",
+        cursor: "cursor 1.2s ease-in-out infinite",
       },
     },
   },
