@@ -23,6 +23,15 @@ module.exports = {
         sans: ["var(--font-montserrat)"],
         mono: ["var(--font-space-mono)"],
       },
+      keyframes: {
+        cursor: {
+          "0%, 100%": { opacity: 100 },
+          "50%": { opacity: 0 },
+        },
+      },
+      animation: {
+        cursor: "cursor 1.5s ease-in-out infinite",
+      },
     },
   },
   plugins: [],
