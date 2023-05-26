@@ -1,4 +1,5 @@
 import Circles from "./Circles";
+import Pill from "./Pill";
 import Prompt from "./Prompt";
 
 const Info = () => {
@@ -12,7 +13,22 @@ const Info = () => {
       </div>
       <div className="px-6">
         <Prompt heading="technologies" />
+        <div className="flex flex-wrap gap-2 mt-2">
+          <Pill tool="JavaScript" />
+          <Pill tool="TypeScript" />
+          <Pill tool="React" />
+          <Pill tool="Next.js" />
+          <Pill tool="Tailwind CSS" />
+          <Pill tool="Node.js" />
+          <Pill tool="MongoDB" />
+          <Pill tool="MySQL" />
+        </div>
         <Prompt heading="designStack" />
+        <div className="flex flex-wrap gap-2 mt-2">
+          <Pill tool="Photoshop" />
+          <Pill tool="Illustrator" />
+          <Pill tool="Figma" />
+        </div>
         <Prompt heading="hobbies" />
         <p className="opacity-50">
           graphic design, photography, videography, hiking, swimming, reading
