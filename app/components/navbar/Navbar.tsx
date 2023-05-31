@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Container from "../Container";
 import Logo from "./Logo";
 
@@ -19,7 +20,9 @@ const Navbar = () => {
           <Logo />
           <ol className="hidden md:flex items-center gap-8 dark:text-white">
             <li>
-              <span className="text-sage-100 font-mono">01.</span> About
+              <Link href="#about" scroll={false}>
+                <span className="text-sage-100 font-mono">01.</span> About
+              </Link>
             </li>
             <li>
               <span className="text-sage-100 font-mono">02.</span> Projects

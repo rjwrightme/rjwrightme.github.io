@@ -7,7 +7,7 @@ const About = () => {
       <Container>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 p-4">
-            <h2 className="text-2xl font-bold">
+            <h2 id="about" className="text-2xl font-bold">
               <span className="text-xl font-mono font-normal text-sage-100">
                 01.{" "}
               </span>

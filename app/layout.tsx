@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${mont.variable} ${space.variable} dark:bg-sage-900 dark:text-white font-sans`}
+        className={`${mont.variable} ${space.variable} dark:bg-sage-900 dark:text-white font-sans scroll-smooth`}
       >
         <Navbar />
         {children}
